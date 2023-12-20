@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Door Restaurant</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+
+<body>
+     <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="ri-planet-line"></i> RESTAURANT
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+                  <li><a href="#" class="nav__link">Feedback</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Overview
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Transactions
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Documents
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Payments
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Refunds
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  
+                  <li><a href="#" class="nav__link">Products</a></li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Profiles
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Accounts
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      
+    
+      <div id="banner">
+        <div class="box-left">
+            <h2>
+                <span>NEXT DOOR</span>
+                <br>
+                <span>RESTAURANT</span>
+            </h2>
+            <p>Specializing in delivering nutritionally sound and hygienic meals to users, serving them in the most perfect way possible.</p>
+            <button>Buy</button>
+        </div>
+        <div class="box-right">
+            <img src="assets/img_1.png" alt="">
+            <img src="assets/img_2.png" alt="">
+            <img src="assets/img_3.png" alt="">
+        </div>
+        <div class="to-bottom">
+            <a href="">
+                <img src="assets/to_bottom.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div id="wp-products">
+        <h2>OUR PRODUCTS</h2>
+        <ul id="list-products">
+            <div class="item">
+                <img src="assets/product_1.png" alt="">
+                
+
+                <div class="name">Turkish toast</div>
+                <div class="desc">Turkish toast with our own homemade sauce</div>
+                <div class="price">99.000 VNĐ</div>
+            </div>
+
+
+            <div class="item">
+                <img src="assets/product_2.png" alt="">
+                
+                   
+
+                <div class="name">Egg Avocado Salad</div>
+                <div class="desc">Avocado salad with eggs creates a sweet taste.</div>
+                <div class="price">79.000 VNĐ</div>
+            </div>
+
+
+            <div class="item">
+                <img src="assets/product_3.png" alt="">
+                
+
+                <div class="name">Pink guava Tomato Salad</div>
+                <div class="desc">Vegetable salad with pink guava, tomatoes and eggs.</div>
+                <div class="price">70.000 VNĐ</div>
+            </div>
+            <div class="item">
+                <img src="assets/product_4.png" alt="">
+                
+
+                <div class="name">Chicken hamburgers</div>
+                <div class="desc">Hamburger with crispy fried chicken.</div>
+                <div class="price">109.000 VNĐ</div>
+            </div>
+
+            <div class="item">
+                <img src="assets/product_5.png" alt="">
+               
+
+                <div class="name">Taco</div>
+                <div class="desc">Crispy cake filled with vegetables.</div>
+                <div class="price">139.000 VNĐ</div>
+            </div>
+
+            <div class="item">
+                <img src="assets/product_6.png" alt="">
+                    
+
+                    <div class="name">Gorgeous orange color</div>
+                    <div class="desc">Salmon with sweet and sour orange saucem</div>
+                    <div class="price">1490.000 VNĐ</div>
+                </div>
+            </ul>
+            
+        </div>
+
+        <div id="saleoff">
+            <div class="box-left">
+                <h1>
+                    <span>DISCOUNT UP TO </span>
+                    <span>45%</span>
+                </h1>
+            </div>
+            <div class="box-right"></div>
+        </div>
+
+
+        <div id="comment">
+            <h2>Customers Feedback</h2>
+            <div id="comment-body">
+                <div class="prev">
+                    <a href="#">
+                        <img src="assets/prev.png" alt="">
+                    </a>    
+                </div>
+                <ul id="list-comment">
+                    <li class="item">
+                        
+                        <div class="stars">
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                                <img src="assets/star.png" alt="">
+                            </span>
+                            <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+                    <div class="name">Trương DiHa</div>
+
+                    <div class="text">
+                        <p>Quán chăm sóc khách hàng cực kì tốt. Nhất định sẽ giới thiệu bạn bè ghé qua.</p>
+                    </div>
+                </li>
+                <li class="item">
+                        
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                        <img src="assets/star.png" alt="">
+                    </span>
+                    <span>
+                        <img src="assets/star.png" alt="">
+                    </span>
+                    <span>
+                        <img src="assets/star.png" alt="">
+                    </span>
+                </div>
+                <div class="name">Trương Minh Vi</div>
+
+                <div class="text">
+                    <p>Quán này phục vụ tuyệt vời.</p>
+                </div>
+            </li>
+                <li class="item">
+                    
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        
+                    </div>
+                    <div class="name">Ng Bảo Vĩnh Hưng</div>
+
+                    <div class="text">
+                        <p>Chất lượng món ăn tầm trung, không ngon như mong đợi.</p>
+                    </div>
+                </li>
+                <li class="item">
+                    
+                    <div class="stars">
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/star.png" alt="">
+                        </span>
+                    </div>
+                    <div class="name">Đoàn Văn Tâm</div>
+
+                    <div class="text">
+                        <p>Quán phục vụ đồ ăn nhanh chóng, nhân viên nhiệt tình. Nhưng mà nhiệt độ hơi lạnh.</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="next">
+                <a href="#">
+                    <img src="assets/next.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="assets/logo.png" alt="" style="height: 80px; width: 100px;">
+            </div>
+            <p>Providing products with safe quality for customers.</p>
+        </div>
+        <div class="box">
+            <h3>CONTENTS</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">HOME</a>
+                </div>
+                <div class="item">
+                    <a href="">PRODUCT</a>
+                </div>
+                <div class="item">
+                    <a href="">BLOG</a>
+                </div>
+                <div class="item">
+                    <a href="">CONTACT</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>CONTACT</h3>
+            <form action="">
+                <input type="text" placeholder="Email">
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
